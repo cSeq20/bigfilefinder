@@ -1,0 +1,23 @@
+{
+  "name": "bigfilefinder",
+  "version": "1.0.0",
+  "description": "Small App to see big files on your system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cSeq20/bigfilefinder.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
